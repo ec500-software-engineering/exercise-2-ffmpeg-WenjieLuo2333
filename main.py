@@ -1,4 +1,3 @@
-import threading
 import Threads
 import queue
 def main():
