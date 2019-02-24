@@ -3,6 +3,7 @@ import time
 import os
 
 class get_in(threading.Thread):
+	"""Threads to get input from a file consist of video names."""
 	def __init__(self,o1,o2):
 		threading.Thread.__init__(self)
 		self.o1 = o1
@@ -22,6 +23,7 @@ class get_in(threading.Thread):
 		print('Input Thread Stop')
 
 class Convert480 (threading.Thread):
+	"""Threads to convert video into 480p"""
 	def __init__(self,input_queue):
 		threading.Thread.__init__(self)
 		self.input_queue = input_queue
@@ -48,6 +50,7 @@ class Convert480 (threading.Thread):
 
 
 class Convert720 (threading.Thread):
+	"""Threads to convert video into 720p"""
 	def __init__(self,input_queue):
 		threading.Thread.__init__(self)
 		self.input_queue = input_queue
