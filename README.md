@@ -2,7 +2,8 @@
 Python CI template for EC500 Software Engineering
 <br/>
 # Build Instruction
-Excute ```python main.py``` to start the test.
+Excute ```python main.py``` to start the convertor.
+Excute ```python test.py``` to start the test.
 And a file consist of videos' path is need. Each line has one path for a video.
 
 # Threads Definition
