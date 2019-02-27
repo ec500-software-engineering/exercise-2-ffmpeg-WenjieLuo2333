@@ -1,6 +1,9 @@
 # python-CI-template
 Python CI template for EC500 Software Engineering
 <br/>
+# For the input
+The Program receives a queue that contains video path. As it shown in Test_files.py/TestClass/test_one. And please input a 'quit' when finished inputing all the videos.
+
 # Build Instruction
 Excute ```python main.py``` to start the convertor.
 Excute ```python test.py``` to start the test.
